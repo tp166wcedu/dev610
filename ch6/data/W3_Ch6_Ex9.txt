@@ -1,0 +1,16 @@
+8. Modify the preceding wordWrap method so that it outputs 
+the newly wrapped text back into the original file. (Be 
+careful—don’t output into a file while you are reading it!) 
+Also, modify it to use a class constant for the maximum 
+line length rather than hard-coding 60. 
+9. Modify the preceding wordWrap method so that it only 
+wraps whole words, never chopping a word in half. Assume 
+that a word is any whitespace-separated token and that all 
+words are under 60 characters in length. 
+Exercises 421 
+10. Write a method called stripHtmlTags that accepts a 
+Scanner representing an input file containing an HTML web 
+page as its parameter, then reads that file and prints the 
+file’s text with all HTML tags removed. A tag is any text 
+between the characters < and >. For example, consider the 
+following text: 
