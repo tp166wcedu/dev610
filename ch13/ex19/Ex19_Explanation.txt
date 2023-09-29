@@ -1,0 +1,22 @@
+Time Complexity:
+The time complexity of the dual selection sort remains O(N^2)
+even though it moves two elements into their correct positions
+during each pass. The nested loop structure remains,
+and the inner loop still iterates over the unsorted portion
+of the array for each pass.
+
+Performance Relative to Standard Selection Sort:
+The dual selection sort might be slightly faster in practice due to
+fewer overall passes through the array (only N/2 outer loop iterations
+compared to N in the standard selection sort).
+However, the inner loop still iterates over the unsorted part
+of the array, so the algorithmic complexity remains quadratic.
+
+Performance Relative to Merge Sort:
+Merge Sort has a time complexity of O(NlogN), which is
+significantly better than O(N^2).
+Thus, Merge Sort is expected to be much faster than the dual
+selection sort for large arrays. The dual selection sort,
+despite its optimization over standard selection sort,
+still performs poorly compared to algorithms with better
+time complexity like Merge Sort.
